@@ -11,7 +11,7 @@ interface ITokenOptions {
   secure?: boolean;
 }
 
-// parse environment variables to integrates with fallback values
+// parse enviroment variables to integrates with fallback values
  const accessTokenExpire = parseInt(
   process.env.ACCESS_TOKEN_EXPIRE || "300",
   10
