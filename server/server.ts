@@ -18,6 +18,6 @@ initSocketServer(server);
 
 // create server
 server.listen(process.env.PORT, () => {
-    console.log(`Server is connected with port ${process.env.PORT}`);
+    console.log(`Server Is Connected With Port ${process.env.PORT}`);
     connectDB();
 });
